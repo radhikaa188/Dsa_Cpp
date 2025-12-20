@@ -1,8 +1,7 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-        int left=0;
-        int right=s.size()-1;
+        int left=0, right=s.size()-1;
         while(left<right){
             //while s[left] is not alphanumeric then left ptr++
             while(left<right && !isalnum(s[left])) left++;
