@@ -1,3 +1,12 @@
+/*
+Problem: Remove Duplicates from String
+Description: Given a string, remove all duplicate characters so that every character appears only once.
+The order of characters should be preserved.
+Example:
+    Input: "programming"
+    Output: "progamin"
+*/
+
 // User function template for C++
 class Solution {
   public:
